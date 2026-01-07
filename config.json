@@ -15,6 +15,6 @@
     "modify_files": true,
     "delete_files": true,
     "file_patterns": [".*\\.yaml$", ".*\\.yml$", ".*\\.json$"],
-    "ignore_patterns": ["epss-percentile", "epss-score", "digest"]
+    "ignore_patterns": ["digest"]
   }
 }
