@@ -1,0 +1,20 @@
+{
+  "repo_path": ".",
+  "commit_hash": "",
+  "output_dir": "./analysis",
+  "pretty_json": true,
+  "verbose": false,
+  "parse_diff": true,
+  "no_file": false,
+  "no_console": true,
+  "log_level": "info",
+  "max_diff_size": 1048576,
+  "focus": {
+    "enable": true,
+    "add_files": true,
+    "modify_files": true,
+    "delete_files": true,
+    "file_patterns": [".*\\.yaml$", ".*\\.yml$", ".*\\.json$"],
+    "ignore_patterns": ["epss-percentile", "epss-score", "digest"]
+  }
+}
